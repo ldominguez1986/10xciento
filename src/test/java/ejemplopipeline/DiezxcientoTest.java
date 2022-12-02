@@ -19,8 +19,13 @@ public class DiezxcientoTest {
 	}
 
 	@Test
-	public void testSaldoAhorro() throws Exception {
+	public void testSaldoAhorroOK() throws Exception {
+		assertEquals(23000000, diezxciento.diezxciento());
+	}
 
+	@Test
+	public void testSaldoAhorroError() throws Exception {
+		// assertEquals(4000, diezxciento.diezxciento());
 	}
 
 }
