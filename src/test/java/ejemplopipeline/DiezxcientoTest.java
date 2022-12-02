@@ -25,7 +25,7 @@ public class DiezxcientoTest {
 
 	@Test
 	public void testSaldoAhorroError() throws Exception {
-		// assertEquals(4000, diezxciento.diezxciento());
+		assertEquals(4000, diezxciento.diezxciento());
 	}
 
 }
